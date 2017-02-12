@@ -1,0 +1,365 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Roboto';
+*{
+	font-family: 'Roboto', sans-serif;
+	font-size: medium;
+}
+
+h2{
+	font-weight: bold;
+	font-size: xx-large;
+	margin-top: 15px;
+	margin-bottom:  30px;
+}
+
+p{
+	margin: 10px 0 10px 0;
+}
+
+#form input{
+	height: 40px;
+	margin-bottom: 5px ;
+	width:  100%;
+	max-width: 500px;
+
+}
+
+#form input[type=submit]{
+	width: 20%;
+	background: #F3CCDA;
+	color:  #221E1E;
+}
+
+header{
+	background: url(../img/background-header-home.png) fixed;
+	background-position: center top ;
+	min-height: 680px;
+	color: #FFF;
+}
+
+
+
+#navbar{
+
+
+}
+nav {	
+	margin-top: 10px;
+}
+ 
+nav ul{
+	list-style: none;
+	
+
+}
+
+nav ul li{
+	display: inline-block;
+	font-size: 16px;
+}
+
+nav ul li a{
+	color: #fff;
+	padding: 10px 10px 10px 10px;
+}
+
+nav ul li a:hover{
+	background: #fff;
+	color: #000;
+	text-decoration: none;
+}
+
+
+#slogan-box> p{
+	text-align: center;
+    font-size: 70px;
+    width: 100%;
+    line-height: 70px;
+    margin-top: 150px;
+    text-shadow: 0.05em 0.05em 0.05em #333;
+}
+
+.descer{
+	text-align: center;
+	display: block;
+	margin-top: 150px;
+}
+
+.descer:before{
+	content: ' ';
+    background: url(../img/sprite.png) no-repeat 0 -70px;
+    width: 68px;
+    height: 33px;
+    position: relative;
+    padding: 7.5px 34.5px 7.5px 34.5px;
+    cursor: pointer;
+}
+
+.descer:hover{
+	opacity: 0.5;
+}
+
+section{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 100%;
+}	
+
+
+
+#sobre{
+	color: #9b972d;
+	background: #fff;	
+}
+
+#sobre h2{
+	
+}
+
+
+#habilidades{
+	color: #c1fbaf;
+	background: #206834;
+}
+
+#portifolio{
+	color: #CFE8F8;
+	background: #4FBAFE;
+}
+
+.img_portifolio{
+	float: left;
+	display: inline-block;
+	background: #fff;
+	width: 380px;  
+	height: 380px;
+	
+	
+	
+}
+
+.detalhes_portifolio{
+	display: none;	
+	
+	background: #000;
+	width: 380px;  
+	height: 360px;
+	opacity:  0.7;
+	
+
+}
+
+.detalhes_portifolio h3{
+	margin-top:  20px ;
+	margin-left:  20px ;
+}
+
+.detalhes_portifolio ul{
+	color: #4FBAFE!important;
+	list-style: none;
+	margin:  20px 5px;
+	
+}
+
+.detalhes_portifolio ul li{
+	color: #4FBAFE!important;
+	line-height: 40px;
+	font-size: large ;
+}
+#portifolio_eos{
+	background: url(../img/portifolio/eos-p.jpg);
+	-moz-background-size: 100% 100%; 
+	-webkit-background-size: 100% 100%; 
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+	
+	
+}
+
+#portifolio_revistaeos{
+	background: url(../img/portifolio/revista-eos-p.jpg);
+	-moz-background-size: 100% 100%; 
+	-webkit-background-size: 100% 100%; 
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+	
+}
+
+#portifolio_faciem3d{
+	background: url(../img/portifolio/faciem3d.jpg);
+	-moz-background-size: 100% 100%; 
+	-webkit-background-size: 100% 100%; 
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;		
+}
+
+#portifolio_cirurgiadacoluna{
+	background: url(../img/portifolio/cirurgiadacoluna.jpg);
+	-moz-background-size: 100% 100%; 
+	-webkit-background-size: 100% 100%; 
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+	
+}
+
+#portifolio_briefing{
+	background: url(../img/portifolio/briefing.jpg);
+	-moz-background-size: 100% 100%; 
+	-webkit-background-size: 100% 100%; 
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+	
+}
+
+#portifolio_poareimaginada{
+	background: url(../img/portifolio/poareimaginada.jpg);
+	-moz-background-size: 100% 100%; 
+	-webkit-background-size: 100% 100%; 
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+	
+}
+
+#portifolio_controltech{
+	background: url(../img/portifolio/controltech.jpg);
+	-moz-background-size: 100% 100%; 
+	-webkit-background-size: 100% 100%; 
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+	
+}
+
+#portifolio_leaoflip{
+	background: url(../img/portifolio/leaoflip.jpg);
+	-moz-background-size: 100% 100%; 
+	-webkit-background-size: 100% 100%; 
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+	
+}
+
+#portifolio_mm{
+	background: url(../img/portifolio/mm-p.jpg);
+	-moz-background-size: 100% 100%; 
+	-webkit-background-size: 100% 100%; 
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+}
+
+#contato{
+	color: #FBB8A3;
+	background: #E41541;
+
+}
+
+
+#home{
+	background: #fff;
+	color: #74791D;
+}
+
+.habilidade-content{
+	background: #eeea8b;
+	color:#4b490e;
+	margin-left: -15px;
+}
+
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+   	background: #eeea8b;
+	color:#4b490e;
+}
+
+.nav-pills>li{
+	height: 50px;
+}
+
+.nav-pills>li>a {
+	background: #9b972d;
+	color: #4b490e;
+    border-radius: 0px;
+    font-size: 12px;
+}
+
+
+
+.ico-open-eye:before {
+	content: " ";
+    background: url(../img/sprite.png) no-repeat -278px -81px;
+    width: 31px;
+    height: 23px;
+    position: relative;
+    top: 9.6px;
+    display: inline-block;
+}
+
+.ico-closed-eye:before {
+	content: " ";
+    background: url(../img/sprite.png) no-repeat -175px -77px;
+    width: 31px;
+	height: 23px;
+    position: relative;
+    top: 8px;
+    display: inline-block;
+}
+
+.ico-screen:before {
+	content: " ";
+    background: url(../img/sprite.png) no-repeat -114px -79px;
+	width: 31px;
+	height: 23px;
+    position: relative;
+    top: 3.7px;
+    display: inline-block;
+}
+
+#frontend,#backend,#designe{
+	padding: 20px 20px 20px 20px;
+}
+
+.description{
+	background: #feb06b;
+}
+
+.imgs-habilidades{
+	background: #ffffcc;
+	text-align: center;
+}
+
+.imgs-habilidades ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.imgs-habilidades ul li{
+	display: inline-block;
+	width: 110px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+@media screen and (max-width: 480px) {
+   /*estilos*/
+   #logo img{
+		width: 100%;
+   }
+
+   h2{
+   	text-align: center;
+   }
+}
+
+#slogan-box> p{
+	font-size: xx-large;
+}
+
+
+
+
+
+
+
+
+/**
+1
