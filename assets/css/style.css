@@ -27,6 +27,13 @@ p{
 	width: 20%;
 	background: #F3CCDA;
 	color:  #221E1E;
+	border: 0px;
+}
+
+textarea{
+	width:  100%;
+	max-width: 500px;
+	height: 200px;
 }
 
 header{
@@ -138,25 +145,24 @@ section{
 }
 
 .detalhes_portifolio{
-	display: none;	
-	
+	display: none;		
 	background: #000;
-	width: 380px;  
-	height: 360px;
-	opacity:  0.7;
+	width: 100%;  
+	min-height: 380px;
 	
-
+	opacity:  0.7;
 }
 
 .detalhes_portifolio h3{
-	margin-top:  20px ;
+	margin-top:  0 ;
+	padding:    20px  10px 10px 10px;
 	margin-left:  20px ;
 }
 
 .detalhes_portifolio ul{
 	color: #4FBAFE!important;
 	list-style: none;
-	margin:  20px 5px;
+	
 	
 }
 
@@ -247,7 +253,7 @@ section{
 
 #contato{
 	color: #FBB8A3;
-	background: #E41541;
+	background: #e44e15;
 
 }
 
