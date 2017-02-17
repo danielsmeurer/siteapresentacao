@@ -15,13 +15,13 @@
 	<script src="assets/js/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
 	<script src="assets/js/npm.js" type="text/javascript" charset="utf-8" async defer></script>	
 	
-	<script src="assets/js/script.js" type="text/javascript" charset="utf-8" async defer></script>	
+	<script src="assets/js/script.js" type="text/javascript" charset="utf-8" ></script>	
 	
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 
 </head>
-<body>
+<body id="home">
  <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
@@ -34,11 +34,11 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="">Início</a></li>
-		    <li><a href="#sobre">Sobre</a></li>
-		    <li><a href="#habilidades">Habilidades</a></li>
-		    <li><a href="#portifolio">Portifólio</a></li>
-		    <li><a href="#contato">Contato</a></li>              
+        <li><a data-target="home">Início</a></li>
+		    <li><a data-target="sobre" >Sobre</a></li>
+		    <li><a data-target="habilidades" >Habilidades</a></li>
+		    <li><a data-target="portifolio" >Portifólio</a></li>
+		    <li><a data-target="contato" >Contato</a></li>              
       </ul>
     </div>
   </div>
@@ -70,9 +70,9 @@
 
 		</div>
 		<div class="row">
-		<div id="slogan-box" class="col-md-12">
-			<p style="text-align:center;"> Sou Daniel <br>Programador </p>
-			<a href="" class="descer" alt="Descer">	</a>
+		<div id="slogan-box" class="col-md-12">			
+			<p style="text-align:center;"><span style="font-size: 200px;"> Olá;</span><br>Sou Daniel Meurer. Programador </p>
+			<span class="descer" alt="Descer">	</span>
 			</div>
 		</div>	
 	</div>	
@@ -344,7 +344,7 @@
 				<a href="https://www.linkedin.com/in/daniel-meurer-185b9b85/"  title="GitHub" target="_blank"><img  height=60" src="assets/img/linkedin.png"  alt="GitHub" ></a>
 			</li>
 		</ul>
-			<div style="clear: both;">&copy; Daniel Meurer - WebDeveloper</div>
+			<div style="clear: both;">&copy; 2017 por Daniel Meurer - WebDeveloper</div>
 	</footer>
 
 
