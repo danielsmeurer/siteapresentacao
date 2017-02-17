@@ -9,31 +9,65 @@
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="asssets/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="assets/js/html5shiv.min.js" type="text/javascript" charset="utf-8" async defer></script>	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="assets/j/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8" async defer></script>
+	<script src="assets/js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8" async defer></script>
 	<script src="assets/js/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
 	<script src="assets/js/npm.js" type="text/javascript" charset="utf-8" async defer></script>	
+	
 	<script src="assets/js/script.js" type="text/javascript" charset="utf-8" async defer></script>	
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 
 </head>
 <body>
+ <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#" ><img  src="assets/img/logo.png"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="">Início</a></li>
+		    <li><a href="#sobre">Sobre</a></li>
+		    <li><a href="#habilidades">Habilidades</a></li>
+		    <li><a href="#portifolio">Portifólio</a></li>
+		    <li><a href="#contato">Contato</a></li>              
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
 <header id="header" class="">
-	<div class="container">
+
+<!--	<div class="container">
 		<div class="row"  >
 			<div id="logo" class="col-xs-12 col-md-4 "  >
-				<img src="assets/img/logo.png">
+				<img style="width: 100%;" src="assets/img/logo.png">
 			</div>			
 
-			<nav  class="col-md-7 col-md-offset-1 text-right hidden-sm-down  hidden-xs-down">
-				<ul>
+			<nav  class="col-md-7 col-md-offset-1 text-right  navbar"> 
+			<!--			<nav  class="navbar  col-md-offset-1 text-right">-->
+
+			
+<!--			<ul>
 					 <li><a href="">Início</a></li>
 				    <li><a href="#sobre">Sobre</a></li>
 				    <li><a href="#habilidades">Habilidades</a></li>
 				    <li><a href="#portifolio">Portifólio</a></li>
 				    <li><a href="#contato">Contato</a></li>
 				</ul>
-			</nav>		
+			</nav>	
+-->
+
+
 		</div>
 		<div class="row">
 		<div id="slogan-box" class="col-md-12">
@@ -58,9 +92,82 @@
 			</div>	
 	</div>
 </section>
-<section id="habilidades">
-		<div class="container">
-			<h2>Habilidades</h2>
+<section id="habilidades" >
+<h2 class="container">Habilidades</h2>
+<!-- exibido em mobile -->
+	<div class="container  hidden-lg hidden-md"  >
+		<div class="panel-group" id="accordion">
+			  <div class="panel panel-default">
+			    <div class="panel-heading">
+			      <h4 class="panel-title">
+			        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+			        <span class="ico-open-eye" >Font-end</a>
+			      </h4>
+			    </div>
+			    <div id="collapse1" class="panel-collapse collapse in">
+			      <div class="panel-body">
+			      		<div  class="description col-md-6 " style="">
+					    	<h3>Front-End</h3>
+					      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				      	</div>
+				      	<div  class="imgs-habilidades col-md-6 " >
+					    	<h3>Front-End</h3>
+					    	<ul>
+					    	    <li><img src="assets/img/linguagens/html-logo.png" alt="" height="60"></li>
+					    	    <li><img src="assets/img/linguagens/CSS3_Logo.png" alt="" height="60"></li>
+					    	    <li><img src="assets/img/linguagens/js-logo.png" alt="" height="60"></li>
+					    	    <li><img src="assets/img/linguagens/jquery-logo.gif" height="60"alt=""></li>
+					    	    <li><img src="assets/img/linguagens/bootstrap-logo.png" alt="" height="60"></li>
+					    	</ul>	
+				      	</div>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="panel panel-default">
+			    <div class="panel-heading">
+			      <h4 class="panel-title">
+			        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+			        <span class="ico-closed-eye" >Back-end</a></a>
+			      </h4>
+			    </div>
+			    <div id="collapse2" class="panel-collapse collapse">
+			      <div class="panel-body">
+			      		<div  class="description col-md-6 " style="">
+					    	<h3>Back-End</h3>
+					      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				      	</div>
+				      	<div  class="imgs-habilidades col-md-6 " >
+					    	<h3>Tecnologia utilizada</h3>
+					    	<ul>
+					    	    <li><img src="assets/img/linguagens/php-logo.png" alt="" height="60"></li>
+					    	    <li><img src="assets/img/linguagens/codeigniter-logo.png" height="60"alt=""></li>
+					    	    <li><img src="assets/img/linguagens/mysql-Logo.png" alt="" height="50"></li>
+					    	    <li><img src="assets/img/linguagens/logopostgress.png" alt="" height="60"></li>
+					    	    
+					    	    <li><img src="assets/img/linguagens/wordpress-logo.png" alt="" height="60"></li>
+					    	</ul>	
+				      	</div>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="panel panel-default">
+			    <div class="panel-heading">
+			      <h4 class="panel-title">
+			        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+			        <span class="ico-screen" ></span>  Designe</a>
+			      </h4>
+			    </div>
+			    <div id="collapse3" class="panel-collapse collapse">
+			      	<div class="panel-body"><h3>Designe</h3>
+				      	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+				     </div>
+			    </div>
+			  </div>
+			</div>		
+		</div>
+	<!--  -->
+		<div class="container  hidden-xs hidden-sm" >
+			
 			<div class="row">
 				<div class="col-md-2">
 			     	<ul class="nav nav-pills nav-stacked">
@@ -115,7 +222,7 @@
 		</div>		
 	</section>
 	<section id="portifolio">
-		<div class="container">
+		<div class="container " >
 				<h2>Portifólio</h2>
 				
 				<div id="portifolio_eos" class="img_portifolio" >
@@ -185,7 +292,7 @@
 							<li><strong>O que fiz</strong></li>
 							<li>-Designe do layout
 								-programação de back-end com php e banco de dados mysql e front-end htm javascript</li>
-							<li> link: <a href="controltech.websiteseguro.com" target="__blank">Controltech</a> </li>
+							<li> link: <a href="https://controltech.websiteseguro.com" target="__blank">Controltech</a> </li>
 						</ul>
 					</div>
 				</div>
@@ -223,17 +330,21 @@
 				<input type="text" name="fone" value="" placeholder="Telefone"><br>
 				<textarea name="mensagem" placeholder="Mensagem"></textarea>
 				<br>	
-				<input type="submit" value="Enviar">
+				<input type="submit" class="btn" value="Enviar">
 			</form>
 
 		</div>
 	</section>
-	<footer>
-		Email: <a href="mailto: danielsmeurer@gmail.com"  >danielsmeurer@gmail.com</a>
-		<a href="https://github.com/danielsmeurer/"  title="GitHub" target="_blank"><img  height="50" src="assets/img/git.png"  alt="GitHub" ></a>
-
-
-
+	<footer id="footer">
+		<ul>
+			<li>Email: <a href="mailto: danielsmeurer@gmail.com"  >danielsmeurer@gmail.com</a>
+			<br>Fone: 51 98406.7038</li>
+			<li>
+				<a href="https://github.com/danielsmeurer/"  title="GitHub" target="_blank"><img  height="60" src="assets/img/git.png"  alt="GitHub" ></a>
+				<a href="https://www.linkedin.com/in/daniel-meurer-185b9b85/"  title="GitHub" target="_blank"><img  height=60" src="assets/img/linkedin.png"  alt="GitHub" ></a>
+			</li>
+		</ul>
+			<div style="clear: both;">&copy; Daniel Meurer - WebDeveloper</div>
 	</footer>
 
 

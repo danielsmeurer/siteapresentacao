@@ -20,6 +20,8 @@ p{
 	margin-bottom: 5px ;
 	width:  100%;
 	max-width: 500px;
+	border-width: 0;
+	padding-left: 10px;
 
 }
 
@@ -34,6 +36,8 @@ textarea{
 	width:  100%;
 	max-width: 500px;
 	height: 200px;
+	border-width: 0;
+	padding-left: 10px;
 }
 
 header{
@@ -44,7 +48,15 @@ header{
 }
 
 
-
+.navbar-brand {
+  padding: 0px;
+}
+	
+.navbar-brand>img {
+    padding: 6px 0px;
+    height: 60px;
+}
+/*
 #navbar{
 
 
@@ -75,7 +87,7 @@ nav ul li a:hover{
 	text-decoration: none;
 }
 
-
+*/
 #slogan-box> p{
 	text-align: center;
     font-size: 70px;
@@ -270,6 +282,26 @@ section{
 }
 
 
+/*movile acordion*/
+
+.panel-default>.panel-heading {
+    color: #4b490e;
+    background-color: #9b972d;
+    border-width: 0px;
+}
+
+
+.panel-body {
+	color: #4b490e;
+    background: #eeea8b;
+}
+
+.panel-default {
+    border-color: #9b972d;
+}
+
+/* ----*/
+
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
    	background: #eeea8b;
 	color:#4b490e;
@@ -362,10 +394,51 @@ section{
 
 
 
+/*Footer*/
+footer{
+  color:  #fff!important;
+  background:  #000;
+  height: 200px;
+  text-align:  center;
+  padding: 20px;
+  
+
+	
+
+}
 
 
+footer ul{
+	font-weight: lighter!important;
+	list-style: none;
+	margin: 0 0 0 0;
+	-webkit-margin-before: 0px!important;
+    -webkit-margin-after: 0px!important;
+    -webkit-margin-start: 0px!important;
+    -webkit-margin-end: 0px!important;
+    -webkit-padding-start: 0px!important;
+}
 
+footer ul li{
+	font-weight: lighter!important;
+	font-size: : small;
+	display: inline-block;
+	padding: 20px 20px 20px 20px;
+	min-width:  40%;
+}
 
+footer ul li a{
+	color: #fff;
+	text-decoration: none;
+}
 
-/**
-1
+footer ul li a:hover{
+	color:  #fff;
+}
+/*
+@media (min-width: 768px){
+.navbar-nav>li>a {
+	    padding-top: 20px;
+	    padding-bottom: 20px;
+	}
+}*/
